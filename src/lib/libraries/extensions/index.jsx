@@ -16,6 +16,8 @@ import text2speechImage from './text2speech.png';
 import text2speechInsetImage from './text2speech-small.svg';
 import makeymakeyImage from './makeymakey.png';
 import makeymakeyInsetImage from './makeymakey-small.svg';
+import ziranImage from './ziran.png';
+import ziranInsetImage from './ziran-small.svg';
 
 import microbitPeripheralImage from './peripheral-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './peripheral-connection/microbit/microbit-small.svg';
@@ -233,5 +235,15 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
 
+    },
+    {
+        name: '自然π',
+        extensionId: 'ziran',
+        collaborator: 'XZW',
+        iconURL: ziranImage,
+        insetIconURL: ziranInsetImage,
+        description: "自然派",
+        featured: true,
+        helpLink: 'http://ziran.ink'
     }
 ];
