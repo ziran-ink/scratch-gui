@@ -446,3 +446,145 @@ Child
         [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {main} [built]
             + 5 hidden modules
 [34mℹ[39m [90m｢wdm｣[39m: Compiled with warnings.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[33m⚠[39m [90m｢wdm｣[39m: Hash: e3d1533544e07978749a
+Version: webpack 4.29.5
+Child
+    Hash: e3d1533544e07978749a
+    Time: 3810ms
+    Built at: 2019-02-27 11:08:07
+                         Asset       Size   Chunks             Chunk Names
+              blocks-only.html  449 bytes           [emitted]  
+    compatibility-testing.html  461 bytes           [emitted]  
+                    index.html  421 bytes           [emitted]  
+                    lib.min.js   20.2 MiB  lib.min  [emitted]  lib.min
+                lib.min.js.map   19.2 MiB  lib.min  [emitted]  lib.min
+                   player.html  440 bytes           [emitted]  
+     + 260 hidden assets
+    Entrypoint gui = lib.min.js lib.min.js.map gui.js gui.js.map
+    Entrypoint blocksonly = lib.min.js lib.min.js.map blocksonly.js blocksonly.js.map
+    Entrypoint compatibilitytesting = lib.min.js lib.min.js.map compatibilitytesting.js compatibilitytesting.js.map
+    Entrypoint player = lib.min.js lib.min.js.map player.js player.js.map
+    [../scratch-vm/node_modules/worker-loader/dist/cjs.js?name=extension-worker.js!./node_modules/scratch-vm/src/extension-support/extension-worker.js] 102 bytes {lib.min} [not cacheable] [built]
+    [./node_modules/scratch-vm/src/extensions/scratch3_ziran/index.js] 94.5 KiB {lib.min} [built]
+        + 2010 hidden modules
+    
+    WARNING in ./src/components/alerts/inline-message.css (./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/alerts/inline-message.css)
+    Module Warning (from ./node_modules/postcss-loader/src/index.js):
+    Warning
+    
+    (8:5) end value has mixed support, consider using flex-end instead
+     @ ./src/components/alerts/inline-message.css 2:14-158
+     @ ./src/components/alerts/inline-message.jsx
+     @ ./src/containers/inline-messages.jsx
+     @ ./src/components/menu-bar/save-status.jsx
+     @ ./src/components/menu-bar/menu-bar.jsx
+     @ ./src/components/gui/gui.jsx
+     @ ./src/containers/gui.jsx
+     @ ./src/playground/blocks-only.jsx
+     @ multi (webpack)-dev-server/client?http://0.0.0.0:8601 ./src/playground/blocks-only.jsx
+    
+    WARNING in ./src/components/menu-bar/author-info.css (./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/menu-bar/author-info.css)
+    Module Warning (from ./node_modules/postcss-loader/src/index.js):
+    Warning
+    
+    (8:5) start value has mixed support, consider using flex-start instead
+     @ ./src/components/menu-bar/author-info.css 2:14-155
+     @ ./src/components/menu-bar/author-info.jsx
+     @ ./src/components/menu-bar/menu-bar.jsx
+     @ ./src/components/gui/gui.jsx
+     @ ./src/containers/gui.jsx
+     @ ./src/playground/blocks-only.jsx
+     @ multi (webpack)-dev-server/client?http://0.0.0.0:8601 ./src/playground/blocks-only.jsx
+    Child html-webpack-plugin for "blocks-only.html":
+         1 asset
+        Entrypoint undefined = blocks-only.html
+           4 modules
+    Child html-webpack-plugin for "compatibility-testing.html":
+         1 asset
+        Entrypoint undefined = compatibility-testing.html
+           4 modules
+    Child html-webpack-plugin for "index.html":
+         1 asset
+        Entrypoint undefined = index.html
+           4 modules
+    Child html-webpack-plugin for "player.html":
+         1 asset
+        Entrypoint undefined = player.html
+           4 modules
+    Child worker:
+         2 assets
+        Entrypoint main = extension-worker.js extension-worker.js.map
+           20 modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled with warnings.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[33m⚠[39m [90m｢wdm｣[39m: Hash: 2bde7929a348fdc8b3af
+Version: webpack 4.29.5
+Child
+    Hash: 2bde7929a348fdc8b3af
+    Time: 5353ms
+    Built at: 2019-02-27 12:12:03
+                         Asset       Size   Chunks             Chunk Names
+              blocks-only.html  449 bytes           [emitted]  
+    compatibility-testing.html  461 bytes           [emitted]  
+                    index.html  421 bytes           [emitted]  
+                    lib.min.js   20.2 MiB  lib.min  [emitted]  lib.min
+                lib.min.js.map   19.2 MiB  lib.min  [emitted]  lib.min
+                   player.html  440 bytes           [emitted]  
+     + 260 hidden assets
+    Entrypoint gui = lib.min.js lib.min.js.map gui.js gui.js.map
+    Entrypoint blocksonly = lib.min.js lib.min.js.map blocksonly.js blocksonly.js.map
+    Entrypoint compatibilitytesting = lib.min.js lib.min.js.map compatibilitytesting.js compatibilitytesting.js.map
+    Entrypoint player = lib.min.js lib.min.js.map player.js player.js.map
+    [../scratch-vm/node_modules/worker-loader/dist/cjs.js?name=extension-worker.js!./node_modules/scratch-vm/src/extension-support/extension-worker.js] 102 bytes {lib.min} [not cacheable] [built]
+    [./node_modules/scratch-vm/src/extensions/scratch3_ziran/index.js] 94.4 KiB {lib.min} [built]
+        + 2010 hidden modules
+    
+    WARNING in ./src/components/alerts/inline-message.css (./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/alerts/inline-message.css)
+    Module Warning (from ./node_modules/postcss-loader/src/index.js):
+    Warning
+    
+    (8:5) end value has mixed support, consider using flex-end instead
+     @ ./src/components/alerts/inline-message.css 2:14-158
+     @ ./src/components/alerts/inline-message.jsx
+     @ ./src/containers/inline-messages.jsx
+     @ ./src/components/menu-bar/save-status.jsx
+     @ ./src/components/menu-bar/menu-bar.jsx
+     @ ./src/components/gui/gui.jsx
+     @ ./src/containers/gui.jsx
+     @ ./src/playground/blocks-only.jsx
+     @ multi (webpack)-dev-server/client?http://0.0.0.0:8601 ./src/playground/blocks-only.jsx
+    
+    WARNING in ./src/components/menu-bar/author-info.css (./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/menu-bar/author-info.css)
+    Module Warning (from ./node_modules/postcss-loader/src/index.js):
+    Warning
+    
+    (8:5) start value has mixed support, consider using flex-start instead
+     @ ./src/components/menu-bar/author-info.css 2:14-155
+     @ ./src/components/menu-bar/author-info.jsx
+     @ ./src/components/menu-bar/menu-bar.jsx
+     @ ./src/components/gui/gui.jsx
+     @ ./src/containers/gui.jsx
+     @ ./src/playground/blocks-only.jsx
+     @ multi (webpack)-dev-server/client?http://0.0.0.0:8601 ./src/playground/blocks-only.jsx
+    Child html-webpack-plugin for "blocks-only.html":
+         1 asset
+        Entrypoint undefined = blocks-only.html
+           4 modules
+    Child html-webpack-plugin for "compatibility-testing.html":
+         1 asset
+        Entrypoint undefined = compatibility-testing.html
+           4 modules
+    Child html-webpack-plugin for "index.html":
+         1 asset
+        Entrypoint undefined = index.html
+           4 modules
+    Child html-webpack-plugin for "player.html":
+         1 asset
+        Entrypoint undefined = player.html
+           4 modules
+    Child worker:
+         2 assets
+        Entrypoint main = extension-worker.js extension-worker.js.map
+           20 modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled with warnings.
